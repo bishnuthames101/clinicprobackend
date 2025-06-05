@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/  # Optional: ignore if you are not using local media storage
+staticfiles/
+local_settings.py
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Node (if using Tailwind or other frontend tools)
+node_modules/
+dist/
+
+# Git
+*.orig
+
+# Migrations (optional - only if you're okay recreating them)
+# **/migrations/*.py
+# !**/migrations/__init__.py
